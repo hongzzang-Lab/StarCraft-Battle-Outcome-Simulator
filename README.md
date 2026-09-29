@@ -4,7 +4,7 @@
 
 # StarCraft Battle Outcome Simulator
 
-Python 객체지향 프로그래밍을 활용하여 StarCraft 스타일의 유닛 전투 흐름을 시뮬레이션하는 프로젝트입니다.
+Python OOP 기반 유닛 전투 및 결과 시뮬레이터
 
 </div>
 
@@ -12,8 +12,8 @@ Python 객체지향 프로그래밍을 활용하여 StarCraft 스타일의 유�
 
 ## 🧭 Project Overview
 
-본 프로젝트는 StarCraft 유닛을 Python 클래스로 모델링하고, 유닛 생성, 이동, 공격, 스킬 사용, 피해 처리 과정을 구현한 전투 시뮬레이션입니다.  
-실제 2D 게임 화면을 구현하는 프로젝트가 아니라, 객체지향 구조를 기반으로 전투 결과와 유닛 동작 흐름을 콘솔 출력으로 확인하는 프로젝트입니다.
+**Model:** 유닛 클래스 · 상속 · 메서드 오버라이딩  
+**Simulation:** 생성 → 이동 → 공격·스킬 → 피해 처리 · **Output:** 콘솔 로그
 
 ---
 
@@ -26,7 +26,7 @@ Python 객체지향 프로그래밍을 활용하여 StarCraft 스타일의 유�
 - Tank 시즈모드 기능 구현
 - Wraith 클로킹 기능 구현
 - 랜덤 피해량 기반 전투 결과 처리
-- Python class, inheritance, method overriding 학습 코드 포함
+- `examples/`, `practice/`: 클래스·상속·메서드 오버라이딩 예제
 
 ---
 
